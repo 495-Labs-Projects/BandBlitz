@@ -58,6 +58,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'carrierwave'
 # cancancan for Authorization
 gem 'cancancan'
+gem 'jquery-rails'
 
 group :doc do
   gem 'sdoc', require: false

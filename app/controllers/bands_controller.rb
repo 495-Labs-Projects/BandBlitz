@@ -50,6 +50,7 @@ class BandsController < ApplicationController
   # DELETE /bands/1.json
   def destroy
     @band.destroy
+    redirect_to(bands_path)
   end
 
   private
